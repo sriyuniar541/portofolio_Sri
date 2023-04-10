@@ -29,3 +29,14 @@ body, * {
 .humberger-active > span:nth-child(2) {
     @apply scale-0;
 }
+
+
+@media (min-width : 768px) {
+    .img-cont {
+        height: 130px;
+        padding: 10px;
+        display: flex;
+        align-items: center;
+    }
+    
+}
