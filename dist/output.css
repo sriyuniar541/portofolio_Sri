@@ -1099,6 +1099,10 @@ body, * {
 }
 
 @media (min-width: 768px) {
+  .md\:h-56 {
+    height: 14rem;
+  }
+
   .md\:w-1\/2 {
     width: 50%;
   }
